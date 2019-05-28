@@ -53,7 +53,7 @@ class Graph {
     return edgeTo;
   }
 
-  path(source, v, edgeTo) {
+  shortTestPath(source, v, edgeTo) {
     let path = [];
     for (let i = v; i != source; i = edgeTo[i]) {
       path.push(i);
@@ -72,5 +72,5 @@ g.addEdge(0, 1)
   .addEdge(1, 4);
 
 // g.dfs(0);
-g.path(0, 4, g.bfs(0));
+g.shortTestPath(0, 4, g.bfs(0));
 debugger;
