@@ -14,6 +14,10 @@ function recurrfib(n) {
 
 // console.log(recurrfib(10));
 
+/**
+ * Dynamic programming
+ * @param {number} n
+ */
 function dynFib(n) {
   const val = [];
 
@@ -34,4 +38,4 @@ function dynFib(n) {
   }
 }
 
-console.log('dynFib(10) :', dynFib(10));
+// console.log('dynFib(10) :', dynFib(10));
