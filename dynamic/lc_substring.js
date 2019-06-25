@@ -1,3 +1,7 @@
+/**
+ * Pretty prints twodimentional array
+ * @param {array[]} arr
+ */
 function pprint(arr) {
   for (let i = 0; i <= arr.length - 1; ++i) {
     console.log(arr[i].toString());
