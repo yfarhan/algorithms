@@ -53,3 +53,4 @@ function lcs(word1, word2) {
 
 let result = lcs('abbcc', 'dbbcc');
 console.log('result :', result);
+
